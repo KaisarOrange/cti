@@ -4,8 +4,8 @@
 	</h2>
 	<div class="flex flex-col md:flex-row items-center justify-between">
 		<div class="bg-white p-5 rounded-md">
-			<div class="h-[250px] lg:h-[300px] w-[400px] lg:w-[580px] overflow-hidden">
-				<img class="h-[250px] lg:h-[300px] w-[5800px]" src="ground.png" alt="" />
+			<div class="h-[200px] lg:h-[300px] w-[330px] lg:w-[580px] overflow-hidden">
+				<img class="h-[200px] lg:h-[300px] w-[370px]" src="ground.png" alt="" />
 			</div>
 			<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
 			<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
@@ -22,8 +22,8 @@
 	</div>
 	<div class="flex flex-col md:flex-row items-center justify-between">
 		<div class="bg-white p-5 rounded-md">
-			<div class="h-[250px] lg:h-[300px] w-[400px] lg:w-[580px] overflow-hidden">
-				<img class="h-[250px] lg:h-[300px] w-[5800px]" src="agrikultur.png" alt="" />
+			<div class="h-[200px] lg:h-[300px] w-[330px] lg:w-[580px] overflow-hidden">
+				<img class="h-[200px] lg:h-[300px] w-[370px]" src="agrikultur.png" alt="" />
 			</div>
 			<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
 			<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
