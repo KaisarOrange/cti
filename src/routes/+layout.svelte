@@ -100,7 +100,7 @@
 
 	<slot />
 	<footer class="bg-white p-10">
-		<img class="w-1/6" src="logo.png" alt="" srcset="" />
+		<img class="w-2/3 md:w-1/6 mb-2" src="logo.png" alt="" srcset="" />
 		<div class="md:ml-16">
 			<h2 class="font-bold">Address:</h2>
 			<h3>
