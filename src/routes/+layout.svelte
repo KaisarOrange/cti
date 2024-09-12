@@ -75,22 +75,22 @@
 				<div class="px-2 pt-2 pb-3 space-y-1">
 					<a
 						href="/"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Home</a
+						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Beranda</a
 					>
 					<a
 						href="/about"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>About</a
+						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Tentang Kami</a
 					>
 					<a
 						href="/services"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Services</a
+						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Progam</a
 					>
 					<a
 						href="/contact"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 						>Contact</a
 					>
 				</div>
