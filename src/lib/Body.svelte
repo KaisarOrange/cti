@@ -8,7 +8,7 @@
 	>
 		<div class="flex items-center flex-col lg:w-1/3">
 			<img
-				class="bg-orange-400 p-2 rounded-full relative top-0"
+				class="bg-orange-400 p-2 rounded-full relative top-0 w-20"
 				src="language.svg"
 				alt=""
 				srcset=""
@@ -21,14 +21,14 @@
 			</p>
 		</div>
 		<div class="flex items-center flex-col lg:w-1/3">
-			<img class="bg-orange-400 p-2 rounded-full" src="language.svg" alt="" srcset="" />
+			<img class="bg-orange-400 p-2 rounded-full w-20" src="skills.png" alt="" srcset="" />
 			<h3 class="text-xl font-extrabold text-orange-400 mt-4 text-center">Pengembangan skill</h3>
 			<p class="mt-6 text-center text-[#0162AE]">
 				Berbagai kelas dan program untuk mempersiapkan anda untuk berkerja di jepang
 			</p>
 		</div>
 		<div class="flex items-center flex-col lg:w-1/3">
-			<img class="bg-orange-400 p-2 rounded-full" src="language.svg" alt="" srcset="" />
+			<img class="bg-orange-400 p-2 rounded-full w-20" src="ethics.png" alt="" srcset="" />
 			<h3 class="text-xl font-extrabold text-orange-400 mt-4 text-center">
 				Edukasi etika dan moral
 			</h3>

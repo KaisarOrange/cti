@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center gap-10 justify-center py-20 w-3/4 m-auto">
 	<h2 class="text-[#0162AE] text-xl">
-		Program <span class="text-orange-400 font-bold">Kami</span>
+		Program <span class="text-orange-400 font-extrabold">Kami</span>
 	</h2>
 	<div class="flex items-center justify-between">
 		<div class="bg-white p-5 rounded-md">
@@ -23,7 +23,7 @@
 	<div class="flex items-center justify-between">
 		<div class="bg-white p-5 rounded-md">
 			<div class="h-[300px] w-[580px] overflow-hidden">
-				<img class="h-[300px] w-[580px]" src="ground.png" alt="" />
+				<img class="h-[300px] w-[580px]" src="agrikultur.png" alt="" />
 			</div>
 			<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
 			<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
