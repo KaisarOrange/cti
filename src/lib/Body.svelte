@@ -16,14 +16,14 @@
 			<h3 class="text-lg font-extrabold text-orange-400 mt-4 text-center">
 				Pelatihan bahasa dan budaya
 			</h3>
-			<p class="mt-6 text-center text-[#0162AE]">
+			<p class="mt-2 text-center text-[#0162AE]">
 				Belajar bahasa jepang, etika bisnis, dan juga ilmu budaya
 			</p>
 		</div>
 		<div class="flex items-center flex-col lg:w-1/3">
 			<img class="bg-orange-400 p-2 rounded-full w-20" src="skills.png" alt="" srcset="" />
 			<h3 class="text-xl font-extrabold text-orange-400 mt-4 text-center">Pengembangan skill</h3>
-			<p class="mt-6 text-center text-[#0162AE]">
+			<p class="mt-2 text-center text-[#0162AE]">
 				Berbagai kelas dan program untuk mempersiapkan anda untuk berkerja di jepang
 			</p>
 		</div>
@@ -32,7 +32,7 @@
 			<h3 class="text-xl font-extrabold text-orange-400 mt-4 text-center">
 				Edukasi etika dan moral
 			</h3>
-			<p class="mt-6 text-center text-[#0162AE]">
+			<p class="mt-2 text-center text-[#0162AE]">
 				Membangun dan menghasilkan lulusan yang memiliki integritas dan menjunjung tinggi ethos
 				kerja yang baik
 			</p>
