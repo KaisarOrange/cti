@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center bg-blue-50 pt-10 rounded-t-[90px]">
+<div class="flex flex-col items-center bg-blue-50 pt-10 rounded-t-[50px] lg:rounded-t-[90px]">
 	<h2 class="text-3xl text-orange-400 font-extrabold">Fly with us!</h2>
 	<div class="text-center mt-5 text-[#0162AE] font-semibold">
 		<h3>Masa training 5 hingga 6 bulan</h3>
