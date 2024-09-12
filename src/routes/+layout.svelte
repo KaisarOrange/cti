@@ -1,17 +1,103 @@
 <script>
+	let isOpen = false;
 	import '../app.css';
 </script>
 
-<div class="bg-blue-300 min-h-screen">
-	<nav class="bg-white flex items-center justify-between p-5">
-		<img class="w-1/6" src="logo.png" alt="" srcset="" />
-		<div class="flex items-center justify-center gap-20 flex-1 text-[#0162AE] font-semibold">
-			<button class="p-2 active:bg-orange-400 active:text-orange-700">Beranda</button>
-			<button>Profil</button>
-			<button>Program</button>
-			<button>Hubungi Kami</button>
+<div class="bg-blue-300">
+	<nav class="bg-white">
+		<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+			<div class="relative flex items-center justify-between h-16">
+				<!-- Mobile Menu Button -->
+				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+					<button
+						class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+						aria-expanded="false"
+						on:click={() => (isOpen = !isOpen)}
+					>
+						<svg
+							class="block h-6 w-6"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 6h16M4 12h16m-7 6h7"
+							/>
+						</svg>
+					</button>
+				</div>
+
+				<!-- Logo -->
+				<div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+					<div class="flex-shrink-0">
+						<a href="/" class="text-white text-2xl font-bold"
+							><img class="w-48" src="logo.png" alt="" srcset="" /></a
+						>
+					</div>
+				</div>
+
+				<!-- Desktop Menu -->
+				<div class="hidden sm:block sm:ml-6">
+					<div class="flex space-x-4">
+						<a
+							href="/"
+							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							>Beranda</a
+						>
+						<a
+							href="/about"
+							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							>Tentang Kami</a
+						>
+						<a
+							href="/services"
+							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							>Progam</a
+						>
+						<a
+							href="/contact"
+							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							>Contact</a
+						>
+					</div>
+				</div>
+			</div>
 		</div>
+
+		<!-- Mobile Menu Dropdown -->
+		{#if isOpen}
+			<div class="sm:hidden">
+				<div class="px-2 pt-2 pb-3 space-y-1">
+					<a
+						href="/"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Home</a
+					>
+					<a
+						href="/about"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>About</a
+					>
+					<a
+						href="/services"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Services</a
+					>
+					<a
+						href="/contact"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Contact</a
+					>
+				</div>
+			</div>
+		{/if}
 	</nav>
+
 	<slot />
 	<footer class="bg-white p-10">
 		<img class="w-1/6" src="logo.png" alt="" srcset="" />
