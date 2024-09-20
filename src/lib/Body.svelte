@@ -1,41 +1,74 @@
-<div class="mt-10 lg:mt-20">
-	<h2 class="text-2xl w-5/6 lg:w-1/2 font-bold text-[#0162AE] text-center m-auto">
-		Membangun SDM terbaik melalui pendidikan vokasi dengan visi memenuhi kebutuhan tenaga kerja
-		Jepang
-	</h2>
-	<div
-		class="flex items-center justify-center gap-x-10 gap-y-10 bg-white w-[90%] lg:w-2/3 m-auto rounded-md p-10 mt-10 lg:mt-20 flex-wrap lg:flex-nowrap"
-	>
-		<div class="flex items-center flex-col lg:w-1/3">
-			<img
-				class="bg-orange-400 p-2 rounded-full relative top-0 w-20"
-				src="language.svg"
-				alt=""
-				srcset=""
-			/>
-			<h3 class="text-lg font-extrabold text-orange-400 mt-4 text-center">
-				Pelatihan bahasa dan budaya
-			</h3>
-			<p class="mt-2 text-center text-[#0162AE]">
-				Belajar bahasa jepang, etika bisnis, dan juga ilmu budaya
-			</p>
+<script>
+	import { slide } from 'svelte/transition';
+	import { onMount } from 'svelte';
+
+	let divElement; // reference to the div
+	let isInView = false;
+
+	onMount(() => {
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					isInView = true;
+					console.log('Div is in view!');
+				} else {
+					isInView = false;
+					console.log('Div is out of view!');
+				}
+			});
+		});
+
+		observer.observe(divElement); // start observing the div
+
+		return () => {
+			observer.disconnect(); // cleanup when the component is destroyed
+		};
+	});
+</script>
+
+<div class="target h-screen" bind:this={divElement}>
+	{#if isInView}
+		<div
+			id="slide-target"
+			transition:slide={{ duration: 500 }}
+			class="flex flex-col md:flex-row justify-around items-center gap-10 mt-10 lg:mt-10 md:w-5/6 m-auto"
+		>
+			<div class=" h-[600px] w-[600px] overflow-hidden">
+				<img class="h-[600px] rounded-sm" src="Frame1.png" alt="" />
+			</div>
+			<div class="w-1/2 flex flex-col gap-5">
+				<div>
+					<h2 class="font-extrabold text-[#0162AE] text-lg">Language training</h2>
+					<p class="text-[#0162AE]">
+						Japanese Language: Through training in hiragana, katakana, kanji, 1300 vocabulary words
+						over five (5) months, and the use of Japanese in daily life, we expect our students to
+						be able to adapt well to the work environment in Japan.
+					</p>
+				</div>
+				<div>
+					<h2 class="font-extrabold text-[#0162AE] text-lg">
+						Certified Theoretical and Practical Training:
+					</h2>
+					<p class="text-[#0162AE]">
+						In the fields of airport services, agriculture, hospitality, construction, fisheries,
+						and elderly care in Japan.
+					</p>
+				</div>
+				<div>
+					<h2 class="font-extrabold text-[#0162AE] text-lg">
+						Character Development and Japanese Work Ethos:
+					</h2>
+					<p class="text-[#0162AE]">Required in every company in Japan.</p>
+				</div>
+				<div>
+					<h2 class="font-extrabold text-[#0162AE] text-lg">High dicipline training program</h2>
+					<p class="text-[#0162AE]">
+						Instructions on the values of honesty, loyalty, and obedience to the company, which are
+						crucial for personal development. Regular physical exercise to ensure students are
+						healthy, strong, reliable, and resilient
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="flex items-center flex-col lg:w-1/3">
-			<img class="bg-orange-400 p-2 rounded-full w-20" src="skills.png" alt="" srcset="" />
-			<h3 class="text-xl font-extrabold text-orange-400 mt-4 text-center">Pengembangan skill</h3>
-			<p class="mt-2 text-center text-[#0162AE]">
-				Berbagai kelas dan program untuk mempersiapkan anda untuk berkerja di jepang
-			</p>
-		</div>
-		<div class="flex items-center flex-col lg:w-1/3">
-			<img class="bg-orange-400 p-2 rounded-full w-20" src="ethics.png" alt="" srcset="" />
-			<h3 class="text-xl font-extrabold text-orange-400 mt-4 text-center">
-				Edukasi etika dan moral
-			</h3>
-			<p class="mt-2 text-center text-[#0162AE]">
-				Membangun dan menghasilkan lulusan yang memiliki integritas dan menjunjung tinggi ethos
-				kerja yang baik
-			</p>
-		</div>
-	</div>
+	{/if}
 </div>

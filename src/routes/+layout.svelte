@@ -3,7 +3,7 @@
 	import '../app.css';
 </script>
 
-<div class="bg-blue-300">
+<div class="bg-blue-200">
 	<nav class="bg-white">
 		<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
 			<div class="relative flex items-center justify-between h-16">
@@ -36,7 +36,7 @@
 				<div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
 					<div class="flex-shrink-0">
 						<a href="/" class="text-white text-2xl font-bold"
-							><img class="w-48" src="logo.png" alt="" srcset="" /></a
+							><img class="w-52" src="logo.png" alt="" srcset="" /></a
 						>
 					</div>
 				</div>
@@ -54,16 +54,16 @@
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 							>Tentang Kami</a
 						>
-						<a
+						<!-- <a
 							href="/services"
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-							>Progam</a
-						>
-						<a
+							>Program</a
+						> -->
+						<!-- <a
 							href="/contact"
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 							>Contact</a
-						>
+						> -->
 					</div>
 				</div>
 			</div>
@@ -97,8 +97,9 @@
 			</div>
 		{/if}
 	</nav>
-
-	<slot />
+	<div class="">
+		<slot />
+	</div>
 	<footer class="bg-white p-10">
 		<img class="w-2/3 md:w-1/6 mb-2" src="logo.png" alt="" srcset="" />
 		<div class="md:ml-16">
