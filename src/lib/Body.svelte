@@ -26,17 +26,17 @@
 	});
 </script>
 
-<div class="target h-screen" bind:this={divElement}>
+<div class="target min-h-screen" bind:this={divElement}>
 	{#if isInView}
 		<div
 			id="slide-target"
 			transition:slide={{ duration: 500 }}
 			class="flex flex-col md:flex-row justify-around items-center gap-10 mt-10 lg:mt-10 md:w-5/6 m-auto"
 		>
-			<div class=" h-[600px] w-[600px] overflow-hidden">
-				<img class="h-[600px] rounded-sm" src="Frame1.png" alt="" />
+			<div class=" h-[320px] w-[320px] md:h-[600px] md:w-[600px] overflow-hidden">
+				<img class="md:h-[600px] rounded-sm" src="Frame1.png" alt="" />
 			</div>
-			<div class="w-1/2 flex flex-col gap-5">
+			<div class="w-3/4 md:w-1/2 flex flex-col gap-5">
 				<div>
 					<h2 class="font-extrabold text-[#0162AE] text-lg">Language training</h2>
 					<p class="text-[#0162AE]">

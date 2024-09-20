@@ -83,16 +83,16 @@
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 						>Tentang Kami</a
 					>
-					<a
+					<!-- <a
 						href="/services"
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 						>Progam</a
-					>
-					<a
+					> -->
+					<!-- <a
 						href="/contact"
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 						>Contact</a
-					>
+					> -->
 				</div>
 			</div>
 		{/if}

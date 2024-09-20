@@ -26,7 +26,7 @@
 	});
 </script>
 
-<div class="target2 min-h-screen" bind:this={divElement2}>
+<div class="target2 min-h-screen mt-10" bind:this={divElement2}>
 	{#if isInView}
 		<div
 			in:slide={{ duration: 2000 }}
@@ -60,13 +60,13 @@
 					>
 				</div>
 			</div>
-			<div class="bg-blue-300 flex w-full gap-5 p-2 rounded-sm">
-				<div class="bg-white flex md:w-3/4 gap-10 p-2">
-					<div class="h-[300px] w-3/4 overflow-hidden">
+			<div class="bg-blue-300 flex flex-col md:flex-row w-full gap-5 p-2 rounded-sm">
+				<div class="bg-white flex flex-col md:flex-row md:w-3/4 md:gap-10 p-2">
+					<div class="h-[300px] md:w-3/4 overflow-hidden">
 						<img class="h-[300px] w-[600px] object-cover object-left" src="gambar6.png" alt="" />
 					</div>
-					<div class="w-1/2 py-5 pr-2">
-						<h2 class="text-3xl font-extrabold w-2/3 text-orange-400">
+					<div class="md:w-1/2 py-5 pr-2">
+						<h2 class="text-3xl font-extrabold md:w-2/3 text-orange-400">
 							Trusted by Japanese companies
 						</h2>
 						<p class="text-[#0162AE] mt-2">
@@ -77,7 +77,7 @@
 						<!-- <p class="mt-10 text-[#0162AE]">Vol Smaak | Vol Vitamines | Volop Genieten</p> -->
 					</div>
 				</div>
-				<div class="bg-blue-100 w-2/5">
+				<div class="bg-blue-100 md:w-2/5">
 					<div class="p-2">
 						<img class="w-full" src="gambar5.png" alt="" />
 						<div class="p-5">
