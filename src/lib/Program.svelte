@@ -12,7 +12,7 @@
 					isInView = true;
 					console.log('Div is in view!');
 				} else {
-					isInView = false;
+					// isInView = false;
 					console.log('Div is out of view!');
 				}
 			});
@@ -30,7 +30,9 @@
 	{#if isInView}
 		<div
 			in:slide={{ duration: 2000 }}
-			class="flex flex-col items-center gap-10 justify-center pb-20 m-auto md:w-5/6"
+			class="flex flex-col items-center gap-10 justify-center pb-20 m-auto md:w-5/6 {isInView
+				? ''
+				: 'hidden'}"
 		>
 			<div class="flex flex-col md:flex-row items-center justify-between gap-5">
 				<div class="bg-white p-5 rounded-md">

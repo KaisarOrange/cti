@@ -12,7 +12,7 @@
 					isInView = true;
 					console.log('Div is in view!');
 				} else {
-					isInView = false;
+					// isInView = false;
 					console.log('Div is out of view!');
 				}
 			});
@@ -72,8 +72,8 @@
 		</div>
 	{/if}
 
-	<div class="flex justify-center flex-col items-center mt-56">
-		<h2 class="text-3xl text-orange-400 font-extrabold">Cabang Kami</h2>
-		<img class="mt-10 mb-80 w-2/3" src="gambar10.png" alt="" />
+	<div class="flex justify-center flex-col items-center mt-20 lg:mt-56">
+		<h2 class="text-3xl text-orange-400 font-extrabold">Temukan kami di</h2>
+		<img class="mt-10 mb-20 lg:mb-80 lg:w-2/3 p-1" src="gambar10.png" alt="" />
 	</div>
 </div>

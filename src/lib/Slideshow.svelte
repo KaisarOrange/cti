@@ -46,7 +46,7 @@
 <div class="relative w-full md:h-[500px] overflow-hidden">
 	{#each images as image, i}
 		{#if i === currentIndex}
-			<div class="overflow-y-hidden lg:h-[500px] md:w-5/6 m-auto rounded-sm">
+			<div class="overflow-y-hidden min-h-[200px] lg:h-[500px] md:w-5/6 m-auto rounded-sm">
 				<img
 					src={image.url}
 					alt="Slideshow image"
