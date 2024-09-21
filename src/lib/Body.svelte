@@ -74,6 +74,6 @@
 
 	<div class="flex justify-center flex-col items-center mt-32">
 		<h2 class="text-3xl text-orange-400 font-extrabold">Cabang Kami</h2>
-		<img class="my-10 w-2/3" src="gambar10.png" alt="" />
+		<img class="mt-10 mb-20 w-2/3" src="gambar10.png" alt="" />
 	</div>
 </div>
