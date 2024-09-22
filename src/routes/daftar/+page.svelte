@@ -34,7 +34,7 @@
 		isSubmitting = true;
 
 		try {
-			const result = await emailjs.send(PUBLIC_SERVICE, PUBLIC_TEMPLATE, formData, PUBLIC_PUBLIC);
+			// const result = await emailjs.send(PUBLIC_SERVICE, PUBLIC_TEMPLATE, formData, PUBLIC_PUBLIC);
 			console.log(formData);
 			successMessage = 'Email sent successfully!';
 			setTimeout(() => {
@@ -227,7 +227,7 @@
 				{/if}
 				{#if page === 1}
 					<div class="flex flex-col">
-						<label for="email">Tahun lulus sekolah</label>
+						<label for="email">Tahun lulus sekolah/universitas/instansi</label>
 						<input
 							class="border-2 rounded-md px-2 py-1"
 							id="lulus"
