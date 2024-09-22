@@ -100,8 +100,10 @@
 						required
 					>
 						<option value="" disabled selected>Pilih program</option>
-						<option value="Ground Handling">Ground Handling</option>
-						<option value="Pertanian">Pertanian</option>
+						<option value="Ground Handling">Ground Handling (Kerja)</option>
+						<option value="Ground Handling">Ground Handling (Magang)</option>
+						<option value="Pertanian">Pertanian (Kerja)</option>
+						<option value="Pertanian">Pertanian (Magang)</option>
 					</select>
 				</div>
 				<div class="flex flex-col">
