@@ -1,6 +1,7 @@
 <script>
 	import { fade, slide } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
 
 	let divElement2; // reference to the div
 	let isInView = false;
@@ -42,7 +43,9 @@
 					<h2 class="text-orange-400 font-extrabold mt-2 text-3xl">Ground Handling</h2>
 					<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
 					<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
-					<button class="w-full py-2 bg-[#0162AE] rounded-md mt-10 font-semibold text-white"
+					<button
+						on:click={() => goto('/daftar')}
+						class="w-full py-2 bg-[#0162AE] rounded-md mt-10 font-semibold text-white"
 						>Daftar</button
 					>
 				</div>
@@ -57,7 +60,9 @@
 					<h2 class="text-orange-400 font-extrabold mt-2 text-3xl">Agriculture</h2>
 					<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
 					<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
-					<button class="w-full py-2 bg-[#0162AE] rounded-md mt-10 font-semibold text-white"
+					<button
+						on:click={() => goto('/daftar')}
+						class="w-full py-2 bg-[#0162AE] rounded-md mt-10 font-semibold text-white"
 						>Daftar</button
 					>
 				</div>
