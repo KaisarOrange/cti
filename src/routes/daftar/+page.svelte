@@ -34,7 +34,7 @@
 		isSubmitting = true;
 
 		try {
-			// const result = await emailjs.send(PUBLIC_SERVICE, PUBLIC_TEMPLATE, formData, PUBLIC_PUBLIC);
+			const result = await emailjs.send(PUBLIC_SERVICE, PUBLIC_TEMPLATE, formData, PUBLIC_PUBLIC);
 			console.log(formData);
 			successMessage = 'Email sent successfully!';
 			setTimeout(() => {
