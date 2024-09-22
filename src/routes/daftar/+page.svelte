@@ -1,7 +1,7 @@
 <script>
 	import emailjs from 'emailjs-com';
 	import { goto } from '$app/navigation';
-	import { PUBLIC_PUBLIC, PUBLIC_SERVICE_KEY, PUBLIC_TEMPLATE } from '$env/static/public';
+	import { PUBLIC_PUBLIC, PUBLIC_SERVICE, PUBLIC_TEMPLATE } from '$env/static/public';
 
 	let formData = {
 		name: '',
@@ -31,12 +31,7 @@
 		isSubmitting = true;
 
 		try {
-			const result = await emailjs.send(
-				PUBLIC_SERVICE_KEY,
-				PUBLIC_TEMPLATE,
-				formData,
-				PUBLIC_PUBLIC
-			);
+			const result = await emailjs.send(PUBLIC_SERVICE, PUBLIC_TEMPLATE, formData, PUBLIC_PUBLIC);
 			console.log(formData);
 			successMessage = 'Email sent successfully!';
 			setTimeout(() => {
