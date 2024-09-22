@@ -23,7 +23,8 @@
 		provinsi: '',
 		kode: null,
 		cabang: '',
-		program: ''
+		program: '',
+		tipe: ''
 	};
 	let isSubmitting = false;
 	let successMessage = '';
@@ -58,7 +59,8 @@
 				badan: 0,
 				status: '',
 				cabang: '',
-				program: ''
+				program: '',
+				tipe: ''
 			};
 		} catch (error) {
 			errorMessage = 'Error sending email. Please try again later.';
@@ -105,11 +107,36 @@
 							required
 						>
 							<option value="" disabled selected>Pilih program</option>
-							<option value="Ground Handling (Kerja)">Ground Handling (Kerja)</option>
-							<option value="Ground Handling (Magang)">Ground Handling (Magang)</option>
-							<option value="Pertanian (Kerja)">Pertanian (Kerja)</option>
-							<option value="Pertanian (Magang)">Pertanian (Magang)</option>
+							<option value="Ground Handling">Ground Handling</option>
+							<option value="Pertanian">Pertanian</option>
 						</select>
+					</div>
+					<div class="flex flex-col">
+						<label for="tipe">Jenis program</label>
+						<div class="flex items-center gap-2">
+							<input
+								class="border-2 rounded-md px-2 py-1"
+								id="magang1"
+								name="magang"
+								type="radio"
+								min="0"
+								value="magang"
+								bind:group={formData.tipe}
+								required
+							/>
+							<label for="">Magang</label>
+							<input
+								class="border-2 rounded-md px-2 py-1"
+								id="kerja2"
+								name="kerja"
+								type="radio"
+								min="0"
+								value="kerja"
+								bind:group={formData.tipe}
+								required
+							/>
+							<label for="">Kerja</label>
+						</div>
 					</div>
 					<div class="flex flex-col">
 						<label for="name">Nama lengkap</label>
