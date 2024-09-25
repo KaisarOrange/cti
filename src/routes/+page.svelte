@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Program Kerja Magang di Jepang bersama Cahaya Titian Insantama</title>
+	<title>Program Kerja dan Magang di Jepang bersama Cahaya Titian Insantama</title>
 	<meta
 		name="description"
 		content="Ikuti program magang ke Jepang bersama Cahaya Titian Insantama untuk mengembangkan karir dan pengalaman internasional."
