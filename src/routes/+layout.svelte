@@ -54,15 +54,15 @@
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 							>Tentang Kami</a
 						>
+						<a
+							href="/visi"
+							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+							>Vision & Philosophy</a
+						>
 						<!-- <a
-							href="/services"
+							href="/filosofi"
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-							>Program</a
-						> -->
-						<!-- <a
-							href="/contact"
-							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-							>Contact</a
+							>Filosofi</a
 						> -->
 					</div>
 				</div>
@@ -83,15 +83,15 @@
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 						>Tentang Kami</a
 					>
-					<!-- <a
-						href="/services"
+					<a
+						href="/visi"
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Progam</a
-					> -->
+						>Vision & Philosophy</a
+					>
 					<!-- <a
-						href="/contact"
+						href="/filosofi"
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Contact</a
+						>Filosofi</a
 					> -->
 				</div>
 			</div>

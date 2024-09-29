@@ -7,26 +7,26 @@
 		{
 			url: 'gambar4.png',
 			desc: '',
-			judulSatu: 'Provide Opportunities',
-			juduDua: 'For Indonesian youth to become independent individuals'
+			judulSatu: 'Memberi peluang baru',
+			juduDua: 'Cahaya titian insantama, untuk generasi masa depan Indonesia'
 		},
 		{
 			url: 'gambar2.png',
 			desc: '',
-			judulSatu: 'Training and gaining knowledge in Japan.',
-			juduDua: 'Impart Japanese work culture, traditions, and professional ethics'
+			judulSatu: 'Pelatihan dan pengembangan ilmu.',
+			juduDua: 'Memadukan budaya kerja Jepang, tradisi, dan etika profesional.'
 		},
 		{
 			url: 'gambar3.png',
 			desc: '',
-			judulSatu: 'Acquire various skills and knowledge from Japan',
-			juduDua: 'For a better future in Indonesia.'
+			judulSatu: 'Dapatkan berbagai ilmu dan skill untuk bekerja di Jepang',
+			juduDua: 'Untuk masa depan yang lebih baik'
 		},
 		{
 			url: 'gambar1.png',
 			desc: '',
-			judulSatu: 'Contribute to economic growth',
-			juduDua: 'Improving the living standards of the people in Indonesia'
+			judulSatu: 'Ikut serta membangun ekonomi',
+			juduDua: 'Membangun indonesia maju'
 		}
 	];
 

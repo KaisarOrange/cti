@@ -41,9 +41,9 @@
 <div class="">
 	<img class="w-full" src="gambar8.png" alt="" />
 	<div class="m-5 md:m-20">
-		<h2 class="m-auto text-center font-bold text-[#0162AE] text-3xl py-10">
-			“We invite you to join us in shaping a future where skilled, ethical, and resillient
-			individuals drive progress in both nations”
-		</h2>
+		<h1 class="m-auto text-center font-bold text-[#0162AE] text-3xl py-10">
+			“Kami mengundang Anda untuk bergabung dengan kami dalam membentuk masa depan di mana individu
+			yang terampil, etis, dan tangguh mendorong kemajuan kedua negara.”
+		</h1>
 	</div>
 </div>

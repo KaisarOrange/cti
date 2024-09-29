@@ -57,7 +57,7 @@
 							alt=""
 						/>
 					</div>
-					<h2 class="text-orange-400 font-extrabold mt-2 text-3xl">Agriculture</h2>
+					<h2 class="text-orange-400 font-extrabold mt-2 text-3xl">Pertanian</h2>
 					<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
 					<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
 					<button
@@ -74,12 +74,13 @@
 					</div>
 					<div class="md:w-1/2 py-5 pr-2">
 						<h2 class="text-3xl font-extrabold md:w-2/3 text-orange-400">
-							Trusted by Japanese companies
+							Dipercayain oleh perusahaan Jepang
 						</h2>
 						<p class="text-[#0162AE] mt-2">
-							All the educational institutions we own, aim to produce comprehensively skilled and
-							measurable workers. We also aspire to be a trusted institution by companies in Japan
-							and contribute to the economic growth of these two friendly countries.
+							Semua lembaga pendidikan yang kami miliki bertujuan untuk menghasilkan pekerja dengan
+							keterampilan yang komprehensif dan terukur. Kami juga bercita-cita menjadi lembaga
+							yang dipercaya oleh perusahaan-perusahaan di Jepang dan berkontribusi pada pertumbuhan
+							ekonomi kedua negara bersahabat ini.
 						</p>
 						<!-- <p class="mt-10 text-[#0162AE]">Vol Smaak | Vol Vitamines | Volop Genieten</p> -->
 					</div>
@@ -88,14 +89,14 @@
 					<div class="p-2">
 						<img class="w-full" src="gambar5.png" alt="" />
 						<div class="p-5">
-							<h2 class="text-3xl font-extrabold text-orange-400">Company Strategy</h2>
+							<h2 class="text-3xl font-extrabold text-orange-400">Strategi perusahaan</h2>
 							<!-- <h2 class="mt-10 text-[#0162AE]">Benodigdheden</h2> -->
 							<ul class="list-disc pl-5 text-[#0162AE] mt-2">
-								<li>Providing prospective students with affordable training and departure costs</li>
-								<li>Ensuring accessible and adequate learning and sports facilities.</li>
+								<li>Memberikan calon siswa biaya pelatihan dan keberangkatan yang terjangkau.</li>
+								<li>Memastikan fasilitas belajar dan olahraga yang aksesibel dan memadai.</li>
 								<li>
-									Monitoring and evaluating the performance of our trainees while they work at
-									Japanese companies
+									Memantau dan mengevaluasi kinerja para peserta pelatihan kami saat mereka bekerja
+									di perusahaan-perusahaan Jepang.
 								</li>
 							</ul>
 						</div>
