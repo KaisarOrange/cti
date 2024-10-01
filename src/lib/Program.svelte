@@ -74,9 +74,12 @@
 					</div>
 					<div class="md:w-1/2 py-5 pr-2">
 						<h2 class="text-3xl font-extrabold md:w-2/3 text-orange-400">
-							Dipercayain oleh perusahaan Jepang
+							Dipercaya oleh perusahaan Jepang
 						</h2>
 						<p class="text-[#0162AE] mt-2">
+							すべての教育機関は、総合的で測定可能なスキルを持つ労働者を育成することを目的としています。また、日本の企業から信頼され、この友好国二国の経済成長に貢献する機関となることを目指しています。
+						</p>
+						<p class="text-[#0162AE] mt-2 font-bold">
 							Semua lembaga pendidikan yang kami miliki bertujuan untuk menghasilkan pekerja dengan
 							keterampilan yang komprehensif dan terukur. Kami juga bercita-cita menjadi lembaga
 							yang dipercaya oleh perusahaan-perusahaan di Jepang dan berkontribusi pada pertumbuhan
@@ -92,11 +95,31 @@
 							<h2 class="text-3xl font-extrabold text-orange-400">Strategi perusahaan</h2>
 							<!-- <h2 class="mt-10 text-[#0162AE]">Benodigdheden</h2> -->
 							<ul class="list-disc pl-5 text-[#0162AE] mt-2">
-								<li>Memberikan calon siswa biaya pelatihan dan keberangkatan yang terjangkau.</li>
-								<li>Memastikan fasilitas belajar dan olahraga yang aksesibel dan memadai.</li>
 								<li>
-									Memantau dan mengevaluasi kinerja para peserta pelatihan kami saat mereka bekerja
-									di perusahaan-perusahaan Jepang.
+									<div>
+										見込み学生に対して、手頃なトレーニングおよび出発費用を提供し、月々の分割払いのオプショ
+										ンを用意し、総額の50%を前金として提供します。残りの金額は、日本での就職後に分割払いが可
+										能です。
+									</div>
+									<div class="font-bold">
+										Memberikan calon siswa biaya pelatihan dan keberangkatan yang terjangkau.
+									</div>
+								</li>
+								<li>
+									<div>アクセスしやすく、適切な学習およびスポーツ施設を提供します。 。</div>
+									<div class="font-bold">
+										Memastikan fasilitas belajar dan olahraga yang aksesibel dan memadai.
+									</div>
+								</li>
+								<li>
+									<div>
+										日本企業で働く学生のパフォーマンスを監視し、評価することが現在および今後の重点的な
+										関心事です。
+									</div>
+									<div class="font-bold">
+										Memantau dan mengevaluasi kinerja para peserta pelatihan kami saat mereka
+										bekerja di perusahaan-perusahaan Jepang.
+									</div>
 								</li>
 							</ul>
 						</div>

@@ -39,7 +39,9 @@
 	</p>
 </div>
 <div class="">
-	<img class="w-full" src="gambar8.png" alt="" />
+	<div class="h-[450px] overflow-hidden relative">
+		<img class="w-full h-[430px] object-cover" src="gambar21.png" alt="" />
+	</div>
 	<div class="m-5 md:m-20">
 		<h1 class="m-auto text-center font-bold text-[#0162AE] text-3xl py-10">
 			“Kami mengundang Anda untuk bergabung dengan kami dalam membentuk masa depan di mana individu
