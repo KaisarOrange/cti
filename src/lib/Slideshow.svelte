@@ -8,7 +8,7 @@
 			url: 'gambar4.png',
 			desc: '',
 			judulSatu: 'Memberi peluang baru',
-			juduDua: 'Cahaya titian insantama, untuk generasi masa depan Indonesia'
+			juduDua: 'Cahaya Titian Insantama, untuk generasi masa depan Indonesia'
 		},
 		{
 			url: 'gambar2.png',
@@ -26,7 +26,7 @@
 			url: 'gambar1.png',
 			desc: '',
 			judulSatu: 'Ikut serta membangun ekonomi',
-			juduDua: 'Membangun indonesia maju'
+			juduDua: 'Membangun Indonesia maju'
 		}
 	];
 

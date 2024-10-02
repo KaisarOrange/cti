@@ -17,7 +17,7 @@
 		<div class="flex justify-center gap-10 items-center mt-10">
 			<img class="w-1/6" src="gambar11.png" alt="" />
 			<div class="w-1/2">
-				<p class=" text-justify text-orange-400 font-extralight">
+				<p class=" text-justify text-[#0162AE] font-extralight">
 					私たちは常に評価を重視し、継続的な進歩にコミットしています。このコミットメントにより、将来的に
 					Cahaya Sarana Sejahteraグループから素晴らしい成果が生まれることが期待されています。
 				</p>
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 
-			<div class="mt-6 text-orange-400 font-extralight">
+			<div class="mt-6 text-[#0162AE] font-extralight">
 				インドネシアの経済成長に貢献し、国民の生活水準を向上させること。
 			</div>
 			<div class="font-semibold text-[#0162AE]">
@@ -53,7 +53,7 @@
 					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">visi</h2>
 				</div>
 			</div>
-			<div class="mt-6 text-orange-400 font-extralight">
+			<div class="mt-6 text-[#0162AE] font-extralight">
 				日本での生産プロセスと経済成長の一部となること。
 			</div>
 			<div class="font-semibold text-[#0162AE]">
@@ -67,7 +67,7 @@
 					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">visi</h2>
 				</div>
 			</div>
-			<div class="mt-6 text-orange-400 font-extralight">
+			<div class="mt-6 text-[#0162AE] font-extralight">
 				日本からさまざまなスキルと知識を習得し、インドネシアのより良い未来を築くこと。
 			</div>
 			<div class="font-semibold text-[#0162AE]">
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 
-			<div class="mt-6 text-orange-400 font-extralight">
+			<div class="mt-6 text-[#0162AE] font-extralight">
 				インドネシアの若者に、日本での研修と知識の習得を通じて、自立した個人になる機会を提供すること
 			</div>
 			<div class="font-semibold text-[#0162AE]">
@@ -98,7 +98,7 @@
 					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">misi</h2>
 				</div>
 			</div>
-			<div class="mt-6 text-orange-400 font-extralight">
+			<div class="mt-6 text-[#0162AE] font-extralight">
 				日本の労働文化、伝統、そしてプロフェッショナルエシックスをインドネシアの若者に伝え、彼らが職業生
 				活と社会生活のあらゆる側面で倫理的で献身的な人物となるよう育成すること。
 			</div>
@@ -113,9 +113,9 @@
 		<div class="lg:w-3/4 m-auto p-10 rounded-md flex flex-col items-center my-20">
 			<img class="w-16" src="favicon.png" alt="PT Cahaya Sarana Sejahtera logo" />
 			<h1 class="text-[#0162AE] font-bold text-2xl">
-				Filosofi <span class="text-orange-400 font-extralight">Perusahaan</span>
+				Filosofi <span class="text-[#0162AE] font-extralight">Perusahaan</span>
 			</h1>
-			<p class="mt-16 text-justify text-orange-400 font-extralight">
+			<p class="mt-16 text-justify text-[#0162AE] font-extralight">
 				PT. Cahaya Sarana Sejahtera (CSS) グループは、インドネシアの人材を自身と多くの人々にとって
 				有益なものにするために、常にプロフェッショナルな家族精神を重視して努力しています。
 			</p>

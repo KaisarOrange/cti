@@ -42,7 +42,7 @@
 					</div>
 					<h2 class="text-orange-400 font-extrabold mt-2 text-3xl">Ground Handling</h2>
 					<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
-					<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
+					<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 15.000.000 s/d Rp. 20.000.000</h4>
 					<button
 						on:click={() => goto('/daftar')}
 						class="w-full py-2 bg-[#0162AE] rounded-md mt-10 font-semibold text-white"
@@ -59,7 +59,7 @@
 					</div>
 					<h2 class="text-orange-400 font-extrabold mt-2 text-3xl">Pertanian</h2>
 					<h3 class="text-orange-400 font-bold mt-2">Proyeksi gaji</h3>
-					<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 10.000.000 s/d Rp. 15.000.000</h4>
+					<h4 class="text-[#0162AE] font-semibold mt-1">Rp. 15.000.000 s/d Rp. 20.000.000</h4>
 					<button
 						on:click={() => goto('/daftar')}
 						class="w-full py-2 bg-[#0162AE] rounded-md mt-10 font-semibold text-white"

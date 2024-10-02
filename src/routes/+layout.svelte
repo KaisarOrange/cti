@@ -56,7 +56,7 @@
 						>
 						<a
 							href="/visi"
-							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-sm font-medium"
 							>Vision & Philosophy</a
 						>
 						<!-- <a
