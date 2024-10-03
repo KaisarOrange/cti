@@ -3,38 +3,47 @@
 </script>
 
 <div class="bg-image w-full h-[400px] flex justify-center items-center relative">
-	<div class="bg-[#ffffffac] px-96 py-10 rounded-md content z-10">
-		<!-- Added a class for clarity -->
-		<img class="w-16" src="favicon.png" alt="Logo" />
+	<div class="bg-[#ffffffcb] w-2/3 px-10 py-10 rounded-md content z-10">
+		<img class="w-16" src="favicon.png" alt="PT Cahaya Sarana Sejahtera logo" />
 		<h1 class="text-[#0162AE] font-bold text-2xl">
-			LPK. CAHAYA TITIAN <span class="text-red-600">INSANTAMA</span>
+			Filosofi <span class="text-[#0162AE] font-extralight">Perusahaan</span>
 		</h1>
+		<p class="mt-16 text-justify text-[#0162AE] font-extralight">
+			PT. Cahaya Titian Insantama (CTI) インドネシアの人材を自身と多くの人々にとって
+			有益なものにするために、常にプロフェッショナルな家族精神を重視して努力しています。
+		</p>
+		<p class="mt-2 font-semibold text-[#0162AE]">
+			PT. Cahaya Titian Insantama (CTI) terus berusaha untuk mengembangkan sumber daya manusia
+			Indonesia agar bermanfaat bagi diri mereka sendiri dan banyak orang lainnya dengan menekankan
+			semangat profesional dalam kebersamaan.
+		</p>
 	</div>
 </div>
 
 <div>
 	<div class="bg-white m-auto p-10 rounded-md flex flex-col items-center my-20">
 		<div class="flex justify-center gap-10 items-center mt-10">
-			<img class="w-1/6" src="gambar11.png" alt="" />
+			<!-- <img class="w-1/6" src="gambar11.png" alt="" /> -->
 			<div class="w-1/2">
 				<p class=" text-justify text-[#0162AE] font-extralight">
 					私たちは常に評価を重視し、継続的な進歩にコミットしています。このコミットメントにより、将来的に
-					Cahaya Sarana Sejahteraグループから素晴らしい成果が生まれることが期待されています。
+					Cahaya Titian Insantamaグループから素晴らしい成果が生まれることが期待されています。
 				</p>
 				<p class="mt-2 font-semibold text-[#0162AE]">
 					Kami selalu antusias untuk evaluasi dan berkomitmen pada kemajuan yang berkelanjutan.
-					Dengan komitmen ini, diharapkan hal-hal besar akan muncul dari Cahaya Sarana Sejahtera
-					Group di masa depan.
+					Dengan komitmen ini, diharapkan hal-hal besar akan muncul dari PT. Cahaya Titian Insantama
+					(CTI) di masa depan.
 				</p>
 			</div>
 		</div>
 	</div>
-	<div class="flex gap-10 justify-center mb-10 flex-wrap">
-		<div class="flex flex-col bg-white py-2 px-4 rounded-md w-1/4">
+	<h2 class="flex justify-center text-[#0162AE] font-bold text-2xl">Visi</h2>
+	<div class="flex gap-10 justify-center mb-10 flex-wrap mt-8">
+		<div class="flex flex-col bg-white py-4 px-4 rounded-md w-1/4">
 			<div class="flex justify-between">
-				<img class="w-20" src="gambar14.png" alt="" />
+				<!-- <img class="w-20" src="gambar14.png" alt="" /> -->
 				<div class="flex justify-center items-center gap-2">
-					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">visi</h2>
+					<!-- <h2 class="text-[#0162AE] font-bold text-2xl mt-10"></h2> -->
 				</div>
 			</div>
 
@@ -46,11 +55,11 @@
 				Indonesia.
 			</div>
 		</div>
-		<div class="flex flex-col bg-white py-2 px-4 rounded-md w-1/4">
+		<div class="flex flex-col bg-white py-4 px-4 rounded-md w-1/4">
 			<div class="flex justify-between">
-				<img class="w-20" src="gambar15.png" alt="" />
+				<!-- <img class="w-20" src="gambar15.png" alt="" /> -->
 				<div class="flex justify-center items-center gap-2">
-					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">visi</h2>
+					<!-- <h2 class="text-[#0162AE] font-bold text-2xl mt-10"></h2> -->
 				</div>
 			</div>
 			<div class="mt-6 text-[#0162AE] font-extralight">
@@ -60,11 +69,11 @@
 				Menjadi bagian dari proses produksi dan pertumbuhan ekonomi di Jepang.
 			</div>
 		</div>
-		<div class="flex flex-col bg-white py-2 px-4 rounded-md w-1/4">
+		<div class="flex flex-col bg-white py-4 px-4 rounded-md w-1/4">
 			<div class="flex justify-between">
-				<img class="w-20" src="gambar16.png" alt="" />
+				<!-- <img class="w-20" src="gambar16.png" alt="" /> -->
 				<div class="flex justify-center items-center gap-2">
-					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">visi</h2>
+					<!-- <h2 class="text-[#0162AE] font-bold text-2xl mt-10"></h2> -->
 				</div>
 			</div>
 			<div class="mt-6 text-[#0162AE] font-extralight">
@@ -75,11 +84,14 @@
 				lebih baik di Indonesia.
 			</div>
 		</div>
+	</div>
+	<h2 class="flex justify-center text-[#0162AE] font-bold text-2xl">Misi</h2>
+	<div class="flex gap-10 justify-center mt-8 mb-10 flex-wrap">
 		<div class="flex flex-col bg-white py-2 px-4 rounded-md w-1/4">
 			<div class="flex justify-between">
-				<img class="w-20" src="gambar17.png" alt="" />
+				<!-- <img class="w-20" src="gambar17.png" alt="" /> -->
 				<div class="flex justify-center items-center gap-2">
-					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">misi</h2>
+					<!-- <h2 class="text-[#0162AE] font-bold text-2xl mt-10"></h2> -->
 				</div>
 			</div>
 
@@ -93,9 +105,9 @@
 		</div>
 		<div class="flex flex-col bg-white py-2 px-4 rounded-md w-1/4">
 			<div class="flex justify-between">
-				<img class="w-20" src="gambar18.png" alt="" />
+				<!-- <img class="w-20" src="gambar18.png" alt="" /> -->
 				<div class="flex justify-center items-center gap-2">
-					<h2 class="text-[#0162AE] font-bold text-2xl mt-10">misi</h2>
+					<!-- <h2 class="text-[#0162AE] font-bold text-2xl mt-10"></h2> -->
 				</div>
 			</div>
 			<div class="mt-6 text-[#0162AE] font-extralight">
@@ -107,23 +119,6 @@
 				Indonesia, guna membentuk individu yang etis dan berdedikasi dalam setiap aspek kehidupan
 				profesional dan sosial mereka.
 			</div>
-		</div>
-	</div>
-	<div class="bg-white lg:w-5/6 m-auto rounded-lg">
-		<div class="lg:w-3/4 m-auto p-10 rounded-md flex flex-col items-center my-20">
-			<img class="w-16" src="favicon.png" alt="PT Cahaya Sarana Sejahtera logo" />
-			<h1 class="text-[#0162AE] font-bold text-2xl">
-				Filosofi <span class="text-[#0162AE] font-extralight">Perusahaan</span>
-			</h1>
-			<p class="mt-16 text-justify text-[#0162AE] font-extralight">
-				PT. Cahaya Sarana Sejahtera (CSS) グループは、インドネシアの人材を自身と多くの人々にとって
-				有益なものにするために、常にプロフェッショナルな家族精神を重視して努力しています。
-			</p>
-			<p class="mt-2 font-semibold text-[#0162AE]">
-				PT. Cahaya Sarana Sejahtera (CSS) Group terus berusaha untuk mengembangkan sumber daya
-				manusia Indonesia agar bermanfaat bagi diri mereka sendiri dan banyak orang lainnya dengan
-				menekankan semangat profesional dalam kebersamaan.
-			</p>
 		</div>
 	</div>
 </div>

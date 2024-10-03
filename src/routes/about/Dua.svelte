@@ -7,12 +7,12 @@
 		探すことに焦点を当てています。
 	</p>
 	<p class="w-3/4 md:w-2/3 mt-5 text-justify">
-		PT. Cahaya titian Insantama Group adalah pionir dalam mengembangkan sumberdaya manusia indonesia
-		melalui pendidikan vokasi yang dikhususkan untuk memenuhi kebutuhan lapangan kerja di jepang.
+		PT. Cahaya titian Insantama Group adalah pionir dalam mengembangkan sumberdaya manusia Indonesia
+		melalui pendidikan vokasi yang dikhususkan untuk memenuhi kebutuhan lapangan kerja di Jepang.
 	</p>
 	<img class="lg:w-[1000px] mt-10" src="gambar4.png" alt="" />
 	<p class="w-3/4 md:w-2/3 mt-10 text-justify">
-		プルボ氏は、CSSグループの主要株主の一人であり、CTIの創設者であり、SCIのオーナーの一人で
+		プルボ氏は、CTIグループの主要株主の一人であり、CTIの創設者であり、SCIのオーナーの一人で
 		す。彼は25年以上にわたり、教育および職業訓練の分野での経験を持ち、すべての訓練機関を統
 		合して、特に日本における労働力の需要の課題に対応することに取り組んでいます。プルボ氏に
 		とって、インドネシアは日本にとって友好的な国であり、両国は相互に必要な関係を持っていま
@@ -27,7 +27,7 @@
 		disiplin dan gigih yang sangat dibutuhkan oleh pengusaha Jepang.
 	</p>
 	<p class="w-3/4 md:w-2/3 mt-10 text-justify">
-		PT CSSグループは、道徳教育（道徳教育）の原則に基づき、日本でのインターンシップ候補者の準備に取り
+		PT CTIグループは、道徳教育（道徳教育）の原則に基づき、日本でのインターンシップ候補者の準備に取り
 		組んでいます。目標は、高い道徳、倫理、誠実さ、規律、忍耐力、勤勉さ、寛容さ、そして日本社会で一般的
 		に見られる労働倫理を体現する個人を育成することです。
 	</p>
@@ -44,8 +44,8 @@
 	</div>
 	<div class="m-5 md:m-20">
 		<h1 class="m-auto text-center font-bold text-[#0162AE] text-3xl py-10">
-			“Kami mengundang Anda untuk bergabung dengan kami dalam membentuk masa depan di mana individu
-			yang terampil, etis, dan tangguh mendorong kemajuan kedua negara.”
+			"Kami Mengajak Anda Untuk Merealisasikan Visi Misi Kami, Dengan Kemitraan Yang Erat Dengan
+			Perusahaan-Perusahaan di Jepang"
 		</h1>
 	</div>
 </div>

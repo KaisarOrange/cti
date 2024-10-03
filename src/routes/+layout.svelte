@@ -47,23 +47,23 @@
 						<a
 							href="/"
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-							>Beranda</a
+							>Home</a
 						>
 						<a
 							href="/about"
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-							>Tentang Kami</a
+							>About Us</a
+						>
+						<a
+							href="/program"
+							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							>Program</a
 						>
 						<a
 							href="/visi"
 							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-sm font-medium"
-							>Vision & Philosophy</a
+							>Vision & Mission</a
 						>
-						<!-- <a
-							href="/filosofi"
-							class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-							>Filosofi</a
-						> -->
 					</div>
 				</div>
 			</div>
@@ -76,23 +76,23 @@
 					<a
 						href="/"
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Beranda</a
+						>Home</a
 					>
 					<a
 						href="/about"
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Tentang Kami</a
+						>About Us</a
+					>
+					<a
+						href="/program"
+						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Program</a
 					>
 					<a
 						href="/visi"
 						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Vision & Philosophy</a
+						>Vision & Mission</a
 					>
-					<!-- <a
-						href="/filosofi"
-						class="text-[#0162AE] hover:bg-[#0162AE] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-						>Filosofi</a
-					> -->
 				</div>
 			</div>
 		{/if}
@@ -105,11 +105,11 @@
 		<div class="md:ml-16">
 			<h2 class="font-bold">Address:</h2>
 			<h3>
-				Tirtasani Sports Center, Tirtasani Royal Resot, Jalan Raya Perusahaan, Malang Regency, East
-				Java
+				Tirtasani Royal Resort Sport Center Building Jalan Perusahaan Raya No.1 Desa Kepoharjo, Kec.
+				Karangploso, Malang, Kode Pos: 65152 Jawa Timur, Indonesia
 			</h3>
 			<h2 class="font-bold">Email:</h2>
-			<h3>cahayatitianinsantama@gmail.com</h3>
+			<h3>malang@ctiofficial.id</h3>
 		</div>
 	</footer>
 </div>
