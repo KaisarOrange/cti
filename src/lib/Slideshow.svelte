@@ -11,7 +11,7 @@
 			juduDua: 'Cahaya Titian Insantama, untuk generasi masa depan Indonesia'
 		},
 		{
-			url: 'gambar2.png',
+			url: 'gambar2.webp',
 			desc: '',
 			judulSatu: 'Pelatihan dan pengembangan ilmu.',
 			juduDua: 'Memadukan budaya kerja Jepang, tradisi, dan etika profesional.'
@@ -23,7 +23,7 @@
 			juduDua: 'Untuk masa depan yang lebih baik'
 		},
 		{
-			url: 'gambar1.png',
+			url: 'gambar1.webp',
 			desc: '',
 			judulSatu: 'Ikut serta membangun ekonomi',
 			juduDua: 'Membangun Indonesia maju'

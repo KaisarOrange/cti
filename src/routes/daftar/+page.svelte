@@ -96,6 +96,7 @@
 							<option value="Tuban">Tuban</option>
 							<option value="Mataram">Mataram</option>
 							<option value="Tegal">Tegal</option>
+							<option value="Tegal">Sukabumi</option>
 						</select>
 					</div>
 					<div class="flex flex-col">

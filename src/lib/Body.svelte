@@ -34,7 +34,7 @@
 			class="flex flex-col md:flex-row justify-around items-center gap-10 mt-10 lg:mt-10 md:w-5/6 m-auto"
 		>
 			<div class=" h-[320px] w-[320px] md:h-[600px] md:w-[600px] overflow-hidden">
-				<img class="md:h-[600px] rounded-sm" src="Frame1.png" alt="" />
+				<img class="md:h-[600px] rounded-sm" src="Frame1.webp" alt="" />
 			</div>
 			<div class="w-3/4 md:w-1/2 flex flex-col gap-5">
 				<div>

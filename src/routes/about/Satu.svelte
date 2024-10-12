@@ -3,5 +3,5 @@
 		Melalui <span class="font-extrabold">program pendidikan</span> kami, adalah gerbang anda menuju
 		<span class="font-extrabold">masa depan</span> yang lebih baik
 	</h1>
-	<img class="absolute lg:w-[1000px] inset-0 m-auto top-[220px]" src="gambar7.png" alt="" />
+	<img class="absolute lg:w-[1000px] inset-0 m-auto top-[220px]" src="gambar7.webp" alt="" />
 </div>

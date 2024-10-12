@@ -40,7 +40,7 @@
 </div>
 <div class="">
 	<div class="h-[450px] overflow-hidden relative">
-		<img class="w-full h-[430px] object-cover" src="gambar21.png" alt="" />
+		<img class="w-full h-[450px] object-cover" src="agrikultur.webp" alt="" />
 	</div>
 	<div class="m-5 md:m-20">
 		<h1 class="m-auto text-center font-bold text-[#0162AE] text-3xl py-10">

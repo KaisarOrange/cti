@@ -4,7 +4,7 @@
 
 	let hello = [
 		{ judul: 'Kaigo/Caregiver', image: 'kaigo.jpg' },
-		{ judul: 'Building Cleaning', image: 'building.jpg' },
+		{ judul: 'Building Cleaning', image: 'building.webp' },
 		{ judul: 'Manufacture', image: 'manufacture.png' },
 		{ judul: 'Industri Konstruksi', image: 'konstrukti.jpg' },
 		{ judul: 'Pembuatan kapal & Mesin Kapal', image: 'kapal.jpg' },
@@ -18,7 +18,7 @@
 
 <div class="flex justify-center items-center flex-col mt-10 mb-10">
 	<h1 class="text-[#0162AE] font-extrabold text-3xl">Program Cahaya Titian Insantama</h1>
-	<h3 class="text-[#0162AE] text-xl">Visa kerja sesuai bidang specific skill workers</h3>
+	<h3 class="text-[#0162AE] text-xl">Visa kerja sesuai dengan bidang specific skill workers</h3>
 
 	<div class="flex flex-wrap justify-center items-center gap-10 mt-10">
 		{#each hello as g}

@@ -74,7 +74,7 @@
 			<div class="bg-blue-300 flex flex-col md:flex-row w-full gap-5 p-2 rounded-sm">
 				<div class="bg-white flex flex-col md:flex-row md:w-3/4 md:gap-10 p-2">
 					<div class="h-[300px] md:w-3/4 overflow-hidden">
-						<img class="h-[300px] w-[600px] object-cover object-left" src="gambar6.png" alt="" />
+						<img class="h-[300px] w-[600px] object-cover object-left" src="gambar6.webp" alt="" />
 					</div>
 					<div class="md:w-1/2 py-5 pr-2">
 						<h2 class="text-3xl font-extrabold md:w-2/3 text-orange-400">
