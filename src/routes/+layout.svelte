@@ -4,7 +4,7 @@
 </script>
 
 <div class="bg-blue-200">
-	<nav class="bg-white">
+	<nav class="bg-white fixed w-full z-50">
 		<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
 			<div class="relative flex items-center justify-between h-16">
 				<!-- Mobile Menu Button -->
@@ -97,7 +97,7 @@
 			</div>
 		{/if}
 	</nav>
-	<div class="">
+	<div class="pt-10">
 		<slot />
 	</div>
 	<footer class="bg-white p-10">

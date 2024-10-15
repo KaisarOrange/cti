@@ -71,11 +71,11 @@
 	};
 </script>
 
-<div class="flex flex-col lg:flex-row items-center justify-center gap-5 h-screen">
-	<div class="m-auto flex justify-center items-center bg-white h-screen flex-1">
-		<img class="w-1/2 h-auto" src="logo.png" alt="" />
+<div class="flex flex-col lg:flex-row items-center justify-center gap-5 min-h-screen">
+	<div class="m-auto flex justify-center items-center bg-white flex-1 min-h-dvh">
+		<img class="w-1/2" src="logo.png" alt="" />
 	</div>
-	<div class="bg-blue-200 py-5 px-20 lg:w-1/2 flex flex-col items-center justify-center">
+	<div class="py-5 px-20 lg:w-1/2 flex flex-col items-center justify-center mt-5">
 		<div
 			class="bg-white w-80 px-5 py-2 lg:w-3/4 flex flex-col items-center justify-center rounded-md"
 		>
