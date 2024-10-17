@@ -97,19 +97,30 @@
 			</div>
 		{/if}
 	</nav>
-	<div class="pt-10">
+	<div class="pt-16 lg:pt-10">
 		<slot />
 	</div>
-	<footer class="bg-white p-10">
+	<footer class="bg-white p-2 md:p-10">
 		<img class="w-2/3 md:w-1/6 mb-2" src="logo.png" alt="" srcset="" />
-		<div class="md:ml-16">
+		<div class="md:ml-16 mt-2">
 			<h2 class="font-bold">Address:</h2>
 			<h3>
 				Tirtasani Royal Resort Sport Center Building Jalan Perusahaan Raya No.1 Desa Kepoharjo, Kec.
 				Karangploso, Malang, Kode Pos: 65152 Jawa Timur, Indonesia
 			</h3>
-			<h2 class="font-bold">Email:</h2>
+			<h2 class="font-bold mt-2">Email:</h2>
 			<h3>malang@ctiofficial.id</h3>
+			<h2 class="font-bold mt-2">Contact persons:</h2>
+			<div>
+				<ul class="list-disc pl-5 space-y-2">
+					<li>(Sukabumi) 0813-1094-2252 / Asep Sukma</li>
+					<li>(Malang) 0811-3666-311 / Ayu Mertha</li>
+					<li>(Tegal) 0877-8225-0146 / Agus Sunaryo</li>
+					<li>(Mataram) 0821-4649-4299 / Wawan Setiyawan</li>
+					<li>(Tuban) 0823-3089-4710 / Wina</li>
+					<li>(Gresik) 0813-3033-1826 / Wiwit</li>
+				</ul>
+			</div>
 		</div>
 	</footer>
 </div>
